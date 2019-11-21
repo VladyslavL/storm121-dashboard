@@ -7,18 +7,222 @@
   <title>dashboard</title>
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <div class="hero">
-    <div class="overlay"></div>
+    <video src="video/lorem_vid01.mp4" loop autoplay></video>
+    <div class="overlay">
+      <div class="container h-100 d-flex flex-column justify-content-between">
+        <div></div>
+        <h1 class="hero__header h3">FELLESSKAPET</h1>
+
+        <div class="pb-2">
+          <div class="hero__progress-bar">
+            <h2 class="h7 text-uppercase"><b>SENT:</b></h2>
+            <div id="progress-bar" class="ldBar my-1"></div>
+          </div>
+
+          <p class="h5"><b>19 980/20 000</b></p>
+          <p class="h9 text-uppercase pt-1">20 RECEIVERS DISABLED*</p>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="dashboard">
     <div class="container">
-      <div class="dashboard__header"></div>
-      <div class="dashboard__section"></div>
+      <div class="dashboard__section d-flex pt-7">
+        <div class="col p-0 d-flex justify-content-end">
+          <div class="text-center">
+            <img src="img/icons/icon-email.svg" alt="" class="mb-2">
+            <p class="h6 text-uppercase"><b>E-MAILS SENT</b></p>
+            <p class="h4"><b>17 000</b></p>
+          </div>
+        </div>
+
+        <div class="px-7"></div>
+
+        <div class="col p-0 d-flex">
+          <div class="text-center">
+            <img src="img/icons/icon-phone.svg" alt="" class="mb-2">
+            <p class="h6 text-uppercase"><b>SMS SENT</b></p>
+            <p class="h4"><b>19 980</b></p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-5">
+
+      <div class="dashboard__section">
+        <h2 class="dashboard__header h7 text-uppercase pb-3"><b>VIEWED FLIM:</b></h2>
+        <div class="d-flex">
+          <div class="col p-0 d-flex justify-content-between">
+            <div>
+              <div id="progress-circle"></div>
+            </div>
+            <div class="text-center">
+              <p class="h1"><b>85%</b></p>
+              <p class="h7 text-uppercase"><b>OF RECEIVERS <br> HAVE VIEWED</b></p>
+              <p class="h8 text-uppercase pt-2 fw--semibold">17 101 OF 19 980</p>
+            </div>
+          </div>
+
+          <div class="align-self-stretch">
+            <hr class="vertical mx-7">
+          </div>
+
+          <div class="col p-0 d-flex">
+            <div class="">
+              <p class="h1"><b>8.9</b></p>
+              <p class="h7 text-uppercase"><b>Views</b></p>
+              <p class="h8 text-uppercase pt-1 fw--semibold">Per person / Average</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-5">
+
+      <div class="dashboard__section">
+        <div class="d-flex">
+          <div class="col p-0 text-center">
+            <h3 class="h7 text-uppercase"><b>TOTAL PAGE VISITS</b></h3>
+            <p class="h2 pt-3"><b>323 435</b></p>
+          </div>
+
+          <div class="align-self-stretch">
+            <hr class="vertical mx-7">
+          </div>
+
+          <div class="col p-0 text-center">
+            <h3 class="h7 text-uppercase"><b><span class="color-primary">UNIQUE</span> PAGE VISITS</b></h3>
+            <p class="h2 pt-3"><b>143 421</b></p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-5">
+
+      <div class="dashboard__section">
+        <h2 class="dashboard__header h5"><b>SoMe-sharing:</b></h2>
+        <div class="d-flex justify-content-center pt-5">
+          <div class="text-center px-7">
+            <img src="img/icons/icon-fb.svg" alt="">
+            <p class="py-1 text-nowrap">Facebook</p>
+            <p class="h6 text-nowrap"><b>2 443</b></p>
+          </div>
+          <div class="text-center px-7">
+            <img src="img/icons/icon-messenger.svg" alt="">
+            <p class="py-1 text-nowrap">Messenger</p>
+            <p class="h6 text-nowrap"><b>652</b></p>
+          </div>
+          <div class="text-center px-7">
+            <img src="img/icons/icon-map.svg" alt="">
+            <p class="py-1 text-nowrap">Besøk nettside</p>
+            <p class="h6 text-nowrap"><b>633</b></p>
+          </div>
+          <div class="text-center px-7">
+            <img src="img/icons/icon-arrow_down.svg" alt="">
+            <p class="py-1 text-nowrap">Lastet ned</p>
+            <p class="h6 text-nowrap"><b>493</b></p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-5">
+
+      <div class="dashboard__section">
+        <h2 class="dashboard__header h5"><b>Devices:</b></h2>
+
+        <div class="d-flex">
+          <div class="col p-0 d-flex justify-content-end">
+            <div class="text-center">
+              <img src="img/icons/icon-desktop.svg" alt="">
+              <p class="h7 pt-1 text-uppercase"><b>Desktop</b></p>
+              <p class="h6 pt-2"><b>2 443</b></p>
+            </div>
+          </div>
+
+          <div class="px-7"></div>
+
+          <div class="col p-0 d-flex">
+            <div class="text-center">
+              <img src="img/icons/icon-mobile.svg" alt="">
+              <p class="h7 pt-1 text-uppercase"><b>Mobile</b></p>
+              <p class="h6 pt-2"><b>2 443</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-5">
+
+      <div class="dashboard__section">
+        <h2 class="dashboard__header h5 pb-2"><b>Traffic sources:</b></h2>
+        
+        <div class="d-inline-flex flex-column">
+          <a href="#" class="mt-1 h8 text-uppercase fw--medium">http://facebook.com/</a>
+          <a href="#" class="mt-1 h8 text-uppercase fw--medium">http://facebook.com/</a>
+          <a href="#" class="mt-1 h8 text-uppercase fw--medium">http://facebook.com/</a>
+          <a href="#" class="mt-1 h8 text-uppercase fw--medium">http://facebook.com/</a>
+        </div>
+      </div>
+
+      <hr class="my-5">
+
+      <div class="dashboard__section">
+        <h2 class="dashboard__header h5 pb-2"><b>Landing page preview</b></h2>
+        
+
+        <div class="lp-preview">
+          <iframe src="https://play.storm121.com/watch/eyJycHV1aWQiOiJjZjg1OGM4OC0wYTJiLTQzNGMtOGE2Zi1lMjU1NTNjMTY5NTAiLCJscGlkIjoiNzgifQ:1i0n0H:7lzLZ1AnAbyx8rYSuciI6b0h84Y/?preview=true" frameborder="0"></iframe>
+          <div class="overlay"></div>
+        </div>
+
+        <p class="pt-4 h8">*EMAIL BOUNCED OR USER UNSUBSCRIBED (<a href="#">SEE LIST</a>)</p>
+      </div>
     </div>
   </div>
+
+  <div class="footer py-7">
+    <div class="container">
+      <p>© Storm 121 AS <br>Apotekergata 10 0180 OSLO, Norway</p>
+    </div>
+  </div>
+
+  <script src="js/progressbar.min.js"></script>
+  <script>
+    var bar = new ProgressBar.Line('#progress-bar', {
+      strokeWidth: 50,
+      easing: 'easeInOut',
+      duration: 1400,
+      color: '#009FB5',
+      trailColor: '#242F31',
+      trailWidth: 50,
+      svgStyle: {width: '100%', height: '100%'},
+      text: {
+        autoStyleContainer: false
+      },
+      step: (state, bar) => {
+        bar.setText(parseFloat(bar.value() * 100).toFixed(1) + ' %');
+      }
+    });
+    bar.animate(0.943);
+
+    var circle = new ProgressBar.Circle('#progress-circle', {
+      strokeWidth: 20,
+      easing: 'easeInOut',
+      duration: 1400,
+      color: '#009FB5',
+      trailColor: '#242F31',
+      trailWidth: 20,
+      svgStyle: {width: '100%', height: '100%'},
+      text: {
+        autoStyleContainer: false
+      }
+    });
+    circle.animate(0.85);
+  </script>
 </body>
 </html>
