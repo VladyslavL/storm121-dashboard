@@ -5078,8 +5078,8 @@ hr.vertical {
   bottom: -10px;
   left: -10px;
   z-index: 2;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(14.08%, #000), color-stop(50.82%, rgba(0, 0, 0, 0)));
-  background: linear-gradient(0deg, #000 14.08%, rgba(0, 0, 0, 0) 50.82%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#000), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 100%);
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
