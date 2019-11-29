@@ -5037,7 +5037,7 @@ hr.vertical {
   position: relative;
 }
 
-.hero video {
+.hero__img {
   position: absolute;
   left: 0;
   top: 0;
@@ -5045,6 +5045,8 @@ hr.vertical {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .hero .ldBar {
